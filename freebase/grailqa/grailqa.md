@@ -13,7 +13,7 @@ All copyrights belong to the authors of this dataset.
 |          Model / System           | Year |   EM   |   F1   |                        Reported by                         |
 |:---------------------------------:|:----:|:------:|:------:|:----------------------------------------------------------:|
 |      DECAF (BM25 + FiD-3B)    | 2022 | - | 78.7 |     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
-|     TIARA    | 2022 | - | 78.5 |     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
+|      TIARA    | 2022 | 73.0 | 78.5 |     [Shu et. al.](https://arxiv.org/pdf/2210.12925.pdf)     |
 |     DeCC    | 2022 | - | 77.6 |     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
 |    DECAF (BM25 + FiD-large)    | 2022 | - | 76.0 |     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
 |   UniParser  | 2022 | - | 74.6 |     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
@@ -35,7 +35,7 @@ All copyrights belong to the authors of this dataset.
 |:---------------------------------:|:----:|:------:|:------:|:----------------------------------------------------------:|
 |    DECAF (BM25 + FiD-3B) | 2022 | - | 81.8 |     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
 |    DECAF (BM25 + FiD-large) | 2022 | - | 79.0|     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
-|    TIARA (Anonymous) | 2022 | - | 76.8|     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
+|    TIARA (Anonymous) | 2022 | 69.2 | 76.8|     [Shu et. al.](https://arxiv.org/pdf/2210.12925.pdf)     |
 |   DeCC (Anonymous) | 2022 | - | 75.8|     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
 |   ArcaneQA | 2022 | - | 75.3|     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
 |  RnG-KBQA | 2022 | - | 71.2|     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
@@ -53,7 +53,7 @@ All copyrights belong to the authors of this dataset.
 
 |          Model / System           | Year |   EM   |   F1   |                        Reported by                         |
 |:---------------------------------:|:----:|:------:|:------:|:----------------------------------------------------------:|
-| TIARA (Anonymous) | 2022 | - |73.9|     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
+| TIARA (Anonymous) | 2022 | 68.0 |73.9|     [Shu et. al.](https://arxiv.org/pdf/2210.12925.pdf)     |
 | DeCC(Anonymous) | 2022 | - |72.5|     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
 | DECAF (BM25 + FiD-3B)| 2022 | - |72.3|     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
 | UniParser (Anonymous)| 2022 | - |69.8|     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
