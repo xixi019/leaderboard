@@ -4,7 +4,7 @@
 
 ### Question Answering Systems with Descriptions
 
-The [QA Systems Table](systems.md) contains links to publications, demo/APIs (if available) and short descriptions of ca. 100 QA systems.
+The [QA Systems Table](systems.md) contains links to publications, demo/APIs (if available), and short descriptions of ca. 100 QA systems.
 
 ### DBpedia 
 
@@ -86,7 +86,7 @@ For adding a new dataset or task, you can also follow the steps above. Alternati
 1. If your dataset is completely new, create a new file and link to it in the table of contents above.
 2. Briefly describe the dataset and include relevant references. 
 3. Describe the evaluation setting and evaluation metric.
-4. Show how an annotated example of the dataset looks like.
+4. Show what an annotated example of the dataset looks like.
 5. Add a download link if available.
 6. Copy the below table and fill in at least two results (including the state-of-the-art) for your dataset (change Metric1/Metric2/Metric3 to the metric of your dataset). 
 7. Submit your change as a pull request.
@@ -104,11 +104,15 @@ Instructions for building the website locally using Jekyll can be found [here](j
 
 Please cite the following:
 
-```Perevalov, A., Yan, X., Kovriguina, L., Jiang, L., Both, A., & Usbeck, R. (2022). Knowledge Graph Question Answering Leaderboard: A Community Resource to Prevent a Replication Crisis. arXiv preprint arXiv:2201.08174.```
+```Perevalov, A., Yan, X., Kovriguina, L., Jiang, L., Both, A., & Usbeck, R. (2022, June). Knowledge Graph Question Answering Leaderboard: A Community Resource to Prevent a Replication Crisis. In Proceedings of the Thirteenth Language Resources and Evaluation Conference (pp. 2998-3007).``` 
+
+The full paper is available [here](https://aclanthology.org/2022.lrec-1.321/) (including BibTeX code).
+
 ### Acknowledgement 
 
 This site is based on https://nlpprogress.com/ and thus, a great thanks goes to Sebastian Ruder.
 
-## Instruction on adding new dataset and leadeboard.
+## Instruction on adding new dataset and leaderboard.
+
 Please check this video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MfinKQx2bss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
