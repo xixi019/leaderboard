@@ -11,6 +11,7 @@
 |              GPT-3.5v3              | 2023 |     -      |     -      |  79.60   |    EN    |                  [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                   |
 |       DECAF (DPR + FiD-large)       | 2022 | 77.1 ± 0.2 | 80.7 ± 0.2 |    -     |    EN    |                   [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                   |
 |               UniK-QA               | 2022 |     -      |    79.1    |    -     |    EN    |                   [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                   |
+|                TERP                 | 2022 |     -      |    76.8    |    -     |    EN    |              [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)            |
 |             SQALER+GNN              | 2022 |     -      |    76.1    |    -     |    EN    |     [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)      |
 |                EmQL                 | 2020 |     -      |    75.5    |    -     |    EN    |                   [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                   |
 |              GMT-KBQA               | 2022 |    76.6    |     -      |   73.1   |    EN    |              [Hu et al.](https://aclanthology.org/2022.coling-1.145.pdf)              |
@@ -47,6 +48,7 @@
 |           KGQA-CL(XLnet)            | 2023 |     -      |     -      |  61.46   |    EN    |                   [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                   |
 |       KGQA-CL(DistilRoberta)        | 2023 |     -      |     -      |  61.05   |    EN    |                   [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                   |
 |            KGQA-CL(GPT2)            | 2023 |     -      |     -      |  60.49   |    EN    |                   [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                   |
+|            W. Han et al.            | 2023 |     -      |    75.2    |    -     |    EN    |          [Han et al.](https://link.springer.com/chapter/10.1007/978-3-031-30672-3_39) |
 |                 NSM                 | 2021 |     -      |   74.30    |    -     |    EN    |                   [He et al.](https://arxiv.org/pdf/2101.03737.pdf)                   |
 |                Rigel                | 2022 |     -      |    73.3    |    -     |    EN    |     [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)      |
 |                 SGM                 | 2022 |   72.36    |     -      |    -     |    EN    |    [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)    |

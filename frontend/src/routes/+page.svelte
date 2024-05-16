@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
+	import { PUBLIC_REPO_URL } from '$lib/constants';
+	import { notifySuccess } from '$lib/notifications';
 	import { getRawGitHubContent } from '$lib/utils/githubUrlBuilder';
 	import Fuse from 'fuse.js';
 	import matter from 'gray-matter';
@@ -17,7 +19,7 @@
 
 	async function load() {
 		try {
-			const githubUrl = getRawGitHubContent(`Artur-Galstyan/leaderboard/`, 'README.md');
+			const githubUrl = getRawGitHubContent(PUBLIC_REPO_URL, 'README.md');
 
 			const githubMarkdownTextReq = await fetch(githubUrl);
 			const githubMarkdownText = await githubMarkdownTextReq.text();
@@ -94,13 +96,13 @@
 <div class="flex justify-center mt-12">
 	<img src="{base}/logo-min.png" alt="The wisest koala" class="w-64 my-auto" />
 </div>
-<div class="text-center mt-4 mb-12 text-5xl">KGQA Leaderboard</div>
+<div class="text-center mt-4 text-5xl">KGQA Leaderboard</div>
 
-<div class="flex justify-center">
+<div class="flex justify-center mt-[3rem]">
 	<input
 		type="text"
-		class="input input-primary input-sm w-60"
-		placeholder="Search Datasets 🔎"
+		class="input input-primary input-sm w-[400px]"
+		placeholder="🔎 Search Datasets"
 		name="filter"
 		id="filter"
 		on:input={search}
@@ -130,7 +132,7 @@
 		{/if}
 	</div>
 </div>
-<div class="w-[70%] mx-auto divider">Or select Knowledge Graph from the list below</div>
+<div class="w-[70%] mx-auto divider mt-[2rem]">Or select a Knowledge Graph from the list below</div>
 {#if prefaceData}
 	<div transition:fade|local class="flex justify-center space-x-4">
 		{#each prefaceData.knowledgeGraphs as kg}
@@ -140,19 +142,29 @@
 		{/each}
 	</div>
 {/if}
+<div class="flex justify-center my-2">
+	<a class="" href={base + '/systems'}>See a list of all surveyed Systems</a>
+</div>
 <div class="flex justify-center">
 	<button
+		id="copy-citation-button"
 		on:click={() => {
-			window.location.href = base + '/systems';
+			let citation =
+				'[Knowledge Graph Question Answering Leaderboard: A Community Resource to Prevent a Replication Crisis](https://aclanthology.org/2022.lrec-1.321) (Perevalov et al., LREC 2022)';
+
+			navigator.clipboard.writeText(citation);
+			notifySuccess('Copied!', 'Citation copied to clipboard');
 		}}
-		class="btn btn-accent"
+		class="btn btn-secondary btn-sm btn-wide mb-12"
 	>
-		Systems
+		📋 Copy Citation
 	</button>
 </div>
 <div class="my-10" />
 {#if content}
-	<div class="prose text-justify mx-auto">
-		{@html content}
+	<div class="flex justify-center">
+		<div class="prose text-justify mx-auto w-[95%]">
+			{@html content}
+		</div>
 	</div>
 {/if}

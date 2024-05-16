@@ -29,7 +29,14 @@ If you have an entire new dataset, which you want to add to the leaderboard, you
     -   ^(datasetName).md - This is the header of your dataset in plain markdown.
     -   (datasetName).md - This is the main leaderboard table. You can copy the template from [here]()
     -   $(datasetName).md - This is the footer of your dataste, again in plain markdown.
+-   Add correspnding route in the file frontend/static/entries.txt
 -   Create a pull request
+
+### Video Tutorial
+
+In addition, you can also check out this video tutorial:
+
+<iframe width="1440" height="614" src="https://www.youtube.com/embed/prddZwwe6cc" title="KGQA Leaderboard Contribution Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Citation
 
