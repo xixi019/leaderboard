@@ -65,6 +65,7 @@ The [QA Systems Table](systems.md) contains links to publications, demo/APIs (if
 - [CrunchQA](other/crunchqa.md)
 - [Covid-19QA](other/covid19qa.md)
 - [DBLP-QuAD](other/dblp_quad.md)
+- [SciQA](other/SciQA.md)
 
 
 This leaderboard aims to provide a central place to compare the capabilities of different Knowledge Graph Question Answering (KGQA) approaches. It gives a global view of the state-of-the-art (SOTA) across many KGQA benchmarks.
